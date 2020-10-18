@@ -8,7 +8,7 @@ Change the code in index.js file
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
- replace with 
+ **replace with**
  
 ReactDOM.hydrate(<App />, document.getElementById('root'));
 ```
@@ -19,7 +19,10 @@ ReactDOM.hydrate(<App />, document.getElementById('root'));
 ### Install babel,babel-react and ignore-style with below command
 `npm install @babel/register @babel/preset-env @babel/preset-react ignore-styles`
 
-## Create a new folder in root named server, inside it create two files named server.js and index.js 
+## Create a new folder in root named server, inside it create two files:
+>server.js
+>index.js 
+
 ## In server.js paste the code below-
 ```javascript
 import path from 'path'
