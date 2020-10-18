@@ -4,7 +4,7 @@ To setup a Server side rendering for your application.
 ## Create Simple App with `npx create-react-app app-name`
 Change the code in index.js file
 
-```ReactDOM.render(<App />, document.getElementById('root'));```
+```javascript ReactDOM.render(<App />, document.getElementById('root'));```
 
  replace with 
  
