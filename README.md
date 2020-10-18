@@ -18,7 +18,7 @@ Change the code in index.js file
 
 ## Create a new folder in root named server, inside it create two files named server.js and index.js 
 ## In server.js paste the code below-
-```
+```javascript
 import path from 'path'
 import fs from 'fs'
 
@@ -63,7 +63,7 @@ app.listen(PORT, () => {
 ```
 
 ## Let’s create an entry point in server/index.js:
-```
+```nodejs
 require('ignore-styles')
 
 require('@babel/register')({
@@ -76,5 +76,5 @@ require('./server')
 
 ## Make Build and run with node :
 
-npm run build
-node server/index.js
+`npm run build
+node server/index.js`
