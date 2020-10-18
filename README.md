@@ -4,11 +4,14 @@ To setup a Server side rendering for your application.
 ## Create Simple App with `npx create-react-app app-name`
 Change the code in index.js file
 
-```javascript ReactDOM.render(<App />, document.getElementById('root'));```
+```javascript
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
  replace with 
  
-```ReactDOM.hydrate(<App />, document.getElementById('root'));```
+ReactDOM.hydrate(<App />, document.getElementById('root'));
+```
 
 ## Install Express 
 `npm install express`
@@ -63,7 +66,7 @@ app.listen(PORT, () => {
 ```
 
 ## Let’s create an entry point in server/index.js:
-```nodejs
+```javascript
 require('ignore-styles')
 
 require('@babel/register')({
