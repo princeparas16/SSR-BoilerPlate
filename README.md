@@ -22,8 +22,8 @@ ReactDOM.hydrate(<App />, document.getElementById('root'));
 `npm install @babel/register @babel/preset-env @babel/preset-react ignore-styles`
 
 ## Create a new folder in root named server, inside it create two files:
-*server.js
-*index.js 
+1.server.js
+2.index.js 
 
 ## In server.js paste the code below-
 ```javascript
